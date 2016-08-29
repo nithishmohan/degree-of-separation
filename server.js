@@ -10,12 +10,13 @@ var readline = require('readline');
 var http = require('http');
 
 var firstName= '';
-var lastName= 'ajith-kumar';
+var lastName= '';
 var i=0;
 var chekingArray=[];
 
+
 var rl = readline.createInterface(process.stdin, process.stdout);
-rl.setPrompt('Enter> ');
+rl.setPrompt('Please enter as specified in the documentation > ');
 rl.prompt();
 rl.on('line', function(line) {
 	var str=line.split(/[ ]+/);
